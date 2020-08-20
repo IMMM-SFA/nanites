@@ -17,10 +17,10 @@ jobs:
 
       - uses: actions/checkout@master
 
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Set up Python
         uses: actions/setup-python@master
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.8
 
       - name: Install dependencies
         run: |
