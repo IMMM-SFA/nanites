@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IMMM-SFA/nanites/master?filepath=notebooks%2Fsa_saltelli_sobol_ishigami.ipynb)
+![test-coverage](https://github.com/IMMM-SFA/nanites/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/IMMM-SFA/nanites/branch/master/graph/badge.svg)](https://codecov.io/gh/IMMM-SFA/nanites) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IMMM-SFA/nanites/master?filepath=notebooks%2Fsa_saltelli_sobol_ishigami.ipynb)
 
 
 # In Development - Coming Soon!
