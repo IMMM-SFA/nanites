@@ -11,4 +11,6 @@ This repository uses Binder to offer `nanites` Jupyter notebooks to users as an 
 
 ## Tutorial Jupyter Notebooks
 ### Sensitivity Analysis
-1. `sa_saltelli_sobol_ishigami.ipynb`:  Sensitivity Analysis (SA) using the Saltelli sampling scheme with Sobol SA
+| Notebook | Description | Link |
+|:-:|:-:|:-:|
+| `sa_saltelli_sobol_ishigami.ipynb` | Sensitivity Analysis (SA) using the Saltelli sampling scheme with Sobol SA | [Saltelli with Sobol Notebook](https://mybinder.org/v2/gh/IMMM-SFA/nanites/master?filepath=notebooks%2Fsa_saltelli_sobol_ishigami.ipynb) |
