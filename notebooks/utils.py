@@ -30,7 +30,7 @@ def plotContourMap(ax, result, dta, contour_cmap, dot_cmap, levels, xgrid, ygrid
     xpoints = np.mean(dta[xvar].values.reshape(-1, 10), axis=1)
     ypoints = np.mean(dta[yvar].values.reshape(-1, 10), axis=1)
     colors = np.round(np.mean(dta['Success'].values.reshape(-1, 10), axis=1), 0)
-    ax.scatter(xpoints, ypoints, c=colors, edgecolor='none', cmap=dot_cmap)
+    ax.scatter(xpoints, ypoints, s=10, c=colors, edgecolor='none', cmap=dot_cmap)
     ax.set_xlim(np.min(xgrid), np.max(xgrid))
     ax.set_ylim(np.min(ygrid), np.max(ygrid))
     ax.set_xlabel(xvar, fontsize=14)
